@@ -1,7 +1,7 @@
-# glossy
+# Glossy 
 ![test](https://github.com/aminekaabachi/glossy/workflows/test/badge.svg?branch=main) [![codecov](https://codecov.io/gh/aminekaabachi/glossy/branch/main/graph/badge.svg)](https://codecov.io/gh/aminekaabachi/glossy) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-*Glossy enables you to easily build and share data dictionaries to explain and document your data models using code.*
+✨ *Glossy enables you to easily build and share data dictionaries to explain and document your data models using code.*
 
 ## Features
 * lorem ipsum
