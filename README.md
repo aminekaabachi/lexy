@@ -36,11 +36,3 @@ Command | Description
 `poetry run black .` | Run black code formatter.
 `poetry build` | Build sdist and wheel to `/dist`.
 `poetry publish` | Publish package to PyPi.
-
-## Continous integration
-
-### GitHub Actions
-Tests are run whenever there is a commit, see `.github/workflows/test.yml` for details.
-
-### Code coverage
-Enable code coverage reporting to [Codecov](https://codecov.io/) by creating a secret with name `CODECOV_TOKEN` in your repository settings (Settings -> Secrets -> New sectret) and value set to the token created by Codecov.
