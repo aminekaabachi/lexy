@@ -1,10 +1,10 @@
-from glossy.term import Term
+from glossy.core.term import Term
 
 
 class Glossary():
-    def __init__(self):
-      self.terms = {}
-      self.relations = {}
+    def __init__(self, terms={}, relations={}):
+      self.terms = terms
+      self.relations = relations
 
     def update(self, name, comment=None, relations=[], **metadata):
       t = Term(name, comment, **metadata)
