@@ -1,5 +1,6 @@
 from glossy.core.term import Term
-
+import traceback
+import inspect
 
 class Glossary():
     def __init__(self, terms={}, relations={}):
@@ -32,6 +33,7 @@ class Glossary():
     def __call__(self, name, comment=None, force_update=False, **metadata):
         term = self.find(name) 
         if term != None and not force_update:
+          term.add_trace(inspect.stack()[1])
           return str(term)
         return self.update(name, comment, **metadata)
         

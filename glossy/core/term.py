@@ -4,6 +4,7 @@ class Term():
         self.name = name
         self.definition = definition
         self.metadata = metadata
+        self.traces = []
         if type(name) != str:
             raise Exception("The term is not a string.")
 
@@ -31,5 +32,8 @@ class Term():
     def definition(self):
         return self.definition
 
+    def add_trace(self, trace):
+        self.traces.append(trace)
+
     def describe(self):
-        return {"name": self.name, "definition": self.definition, "metadata": self.metadata}
+        return {"name": self.name, "definition": self.definition, "usage_count": len(self.traces), "metadata": self.metadata}
