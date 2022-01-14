@@ -32,6 +32,6 @@ class Glossary():
     def __call__(self, name, comment=None, force_update=False, **metadata):
         term = self.find(name) 
         if term != None and not force_update:
-          return term
+          return str(term)
         return self.update(name, comment, **metadata)
         

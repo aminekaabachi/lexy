@@ -1,0 +1,4 @@
+name,definition,required,type,sensitivty
+age,age of the user,true,number,personal
+address,address of the user,false,string,personal
+joined_year,joined year on the platform,false,number,public
