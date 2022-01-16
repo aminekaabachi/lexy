@@ -139,3 +139,5 @@ __pycache__/
 *$py.class
 .python-version
 poetry.lock
+
+.vscode/
