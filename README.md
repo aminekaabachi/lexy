@@ -1,10 +1,10 @@
 # Lexy 
 ![test](https://github.com/aminekaabachi/lexy/workflows/test/badge.svg?branch=main) 
 [![codecov](https://codecov.io/gh/aminekaabachi/lexy/branch/main/graph/badge.svg)](https://codecov.io/gh/aminekaabachi/lexy) 
-[![PyPI](https://img.shields.io/pypi/v/pylexy?style=flat-square)](https://pypi.org/project/pylexy/)
-[![Downloads](https://img.shields.io/pypi/dm/lexy?style=flat-square)](https://pypi.org/project/pylexy/)
-[![Docs](https://readthedocs.org/projects/lexy/badge/?version=latest&style=flat-square)](https://pylexy.readthedocs.io/en/latest/)
-[![GitHub](https://img.shields.io/github/license/aminekaabachi/lexy?style=flat-square)](https://github.com/aminekaabachi/lexy/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/lexy?style=flat-square)](https://pypi.org/project/lexy/)
+[![Downloads](https://img.shields.io/pypi/dm/lexy?style=flat-square)](https://pypi.org/project/lexy/)
+[![Docs](https://readthedocs.org/projects/lexy/badge/?version=latest&style=flat-square)](https://lexy.readthedocs.io/en/latest/)
+[![GitHub](https://img.shields.io/github/license/aminekaabachi/lexy?style=flat-square)](https://github.com/aminekaabachi/lexy/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ✨ ***Lexy** enables you to easily build and share data dictionaries to explain and document your data terminology using code.* The name "Lexy" is inspired from [lexicographer (/ˌlɛksɪˈkɒɡrəfə/)](https://www.lexico.com/definition/lexicographer), the person who compiles dictionaries.
