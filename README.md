@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/pypi/dm/lexy?style=flat-square)](https://pypi.org/project/lexy/)
 [![Docs](https://readthedocs.org/projects/lexy/badge/?version=latest&style=flat-square)](https://lexy.readthedocs.io/en/latest/)
 [![GitHub](https://img.shields.io/github/license/aminekaabachi/lexy?style=flat-square)](https://github.com/aminekaabachi/lexy/blob/main/LICENSE)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Discord](https://img.shields.io/discord/932410374500786217?logo=discord)](https://discord.gg/RJurAU3HYh)
 
 📙 ***Lexy** enables you to easily build and share data dictionaries to explain and document your data terminology using code.* The name "Lexy" is inspired from [lexicographer (/ˌlɛksɪˈkɒɡrəfə/)](https://www.lexico.com/definition/lexicographer), the person who compiles dictionaries.
 
