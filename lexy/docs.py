@@ -49,7 +49,8 @@ def _buildAnchor(name: str, href: str) -> str:
 
 
 def _buildTableRowTag(name: str, definition: str, usage_count, traces, metadata: Dict) -> str:
-    termDataAsList = [_buildAnchor(name, "#"), definition, usage_count, traces, metadata]
+    termDataAsList = [_buildAnchor(
+        name, "#"), definition, usage_count, traces, metadata]
     tableRowTag = _buildTableRow(termDataAsList)
     return tableRowTag
 
@@ -81,7 +82,8 @@ def _generate_docs(glossary: g.Glossary):
         usage_count = len(glossary.terms.get(t).traces)
         traces = glossary.terms.get(t).traces
         metadata = _pretty(glossary.terms.get(t).metadata)
-        L.append(_buildTableRowTag(name, definition, usage_count, traces, metadata))
+        L.append(_buildTableRowTag(name, definition,
+                 usage_count, traces, metadata))
 
     glossaryTable = _buildTable(_buildTableHeader(_getHeaderColumns()), L)
     htmlPlainTag = "<!DOCTYPE html> <html lang=\"en\"> <head> <title>lexy Documentation</title> <meta charset=\"utf-8\"> <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.8.2/css/all.css\"> <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap\"> <link href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\"> <link href=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css\" rel=\"stylesheet\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css\"> <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script> <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js\"></script> <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js\"></script> <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js\"></script> <script type=\"text/javascript\" charset=\"utf8\" src=\"https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js\"></script> <style>table.dataTable thead .sorting:after, table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc_disabled:after, table.dataTable thead .sorting_desc_disabled:before{bottom: .5em;} table a{margin: 0; color: #007bff !important;}</style> <script>$(document).ready(function (){$('#dtBasicExample').DataTable(); $('.dataTables_length').addClass('bs-select');}); </script> </head> <body> <div class=\"container\" style=\"padding: 1em;\"> <h2>✨ %s</h2> <div class=\"row\"> <div class=\"col-sm-12\">%s</div></div></div></div></body> </html>"

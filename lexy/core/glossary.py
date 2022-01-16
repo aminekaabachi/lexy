@@ -1,8 +1,9 @@
 from __future__ import annotations
-from lexy.core.term import Term
-import traceback
+
 import inspect
 from typing import Callable
+
+from lexy.core.term import Term
 
 
 class Glossary():

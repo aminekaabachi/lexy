@@ -12,7 +12,7 @@ class Term():
         return self
 
     def __exit__(self, ext_typ, exc_value, traceback):
-        pass  # do stuff
+        pass
 
     def __str__(self):
         return self.name
