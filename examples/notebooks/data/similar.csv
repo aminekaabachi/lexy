@@ -1,0 +1,20 @@
+name,definition,required,type,sensitivty
+age,age of the user,true,number,personal
+age2,age of the user when joined the platfrom,true,number,personal
+address,address of the user,false,string,personal
+home address,address of the user house,false,string,personal
+homeAddress,address of the user house,false,string,personal
+HomeAddress,address of the user house,false,string,personal
+work address,address of the user workplace,false,string,personal
+personal_address,personal address of the user,false,string,personal
+personal address,personal address of the user,false,string,personal
+personal home address,personal address of the user,false,string,personal
+joined_year,joined year on the platform,false,number,public
+year_of_birth,year of birth of the user,false,number,public
+bankaccount,address of the user house,false,string,personal
+bank account,address of the user house,false,string,personal
+bankAccountID,address of the user house,false,string,personal
+AccountID,address of the user house,false,string,personal
+
+
+

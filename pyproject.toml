@@ -1,15 +1,34 @@
 [tool.poetry]
 name = "glossy"
 version = "0.1.0"
-description = ""
-authors = ["Amine Kaabachi"]
+description = "Glossy enables you to easily build and share data dictionaries to explain and document your data terminology using code."
+authors = ["Amine Kaabachi <ping@kaabachi.io>"]
+keywords = ["data-dictionary", "data-catalog", "data-governance", "documentation"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/aminekaabachi/glossy"
+repository = "https://github.com/aminekaabachi/glossy"
+include = [
+    "LICENSE",
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Topic :: Documentation",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
 pandas = "^1.3.5"
 cattrs = "^1.10.0"
-SQLAlchemy = "^1.4.29"
-pyspark = "^3.2.0"
+spacy = "^3.2.1"
+en_core_web_md = {file = "./models/spaCy/en_core_web_md-3.2.0-py3-none-any.whl"}
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
@@ -19,7 +38,14 @@ pytest-sugar = "^0.9.4"
 tox = "^3.24.4"
 tox-pyenv = "^1.1.0"
 pytest-watch = "^4.2.0"
+SQLAlchemy = "^1.4.29"
+pyspark = "^3.2.0"
+
+[tool.poetry.extras]
+SQLAlchemy = ["SQLAlchemy"]
+pyspark = ["pyspark"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
