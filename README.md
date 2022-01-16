@@ -1,4 +1,4 @@
-# lexy 
+# Lexy 
 ![test](https://github.com/aminekaabachi/lexy/workflows/test/badge.svg?branch=main) 
 [![codecov](https://codecov.io/gh/aminekaabachi/lexy/branch/main/graph/badge.svg)](https://codecov.io/gh/aminekaabachi/lexy) 
 [![PyPI](https://img.shields.io/pypi/v/pylexy?style=flat-square)](https://pypi.org/project/pylexy/)
@@ -7,7 +7,8 @@
 [![GitHub](https://img.shields.io/github/license/aminekaabachi/lexy?style=flat-square)](https://github.com/aminekaabachi/lexy/blob/master/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-✨ ***Lexy** enables you to easily build and share data dictionaries to explain and document your data terminology using code.*
+✨ ***Lexy** enables you to easily build and share data dictionaries to explain and document your data terminology using code.* The name "Lexy" is inspired from [lexicographer (/ˌlɛksɪˈkɒɡrəfə/)](https://www.lexico.com/definition/lexicographer), the person who compiles dictionaries.
+
 
 -----------------
 
@@ -34,7 +35,7 @@ xy.display_docs(glossary)
 
 ## Beloved Features
 
-✨ **lexy** will be soon ready for your use-case:
+✨ **Lexy** will be soon ready for your use-case:
 
 - ✔ Clear standard way to define data dictionaries using code.
 - ✔ Tracking of glossary usage throughout the code.
