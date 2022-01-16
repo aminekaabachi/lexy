@@ -13,8 +13,8 @@
 
 Easily document your data objects and generate beautiful data dictionaries:
 ```python
-import lexy as g
-glossary = g.Glossary()
+import lexy as xy
+glossary = xy.Glossary()
 
 #Defining glossary terms
 glossary("name", "name of the student")
@@ -26,7 +26,7 @@ import pandas as pd
 data = [['tom', 'bird', 10], ['nick', 'star', 15], ['juli', 'aston', 14]] 
 df = pd.DataFrame(data, columns = [glossary('name'), glossary('lastname'), glossary('age')]) 
 
-g.display_docs(glossary)
+xy.display_docs(glossary)
 ```
 
 ![Displayed docs](demo.png?raw=true "lexy Documentation")
