@@ -41,7 +41,7 @@ xy.display_docs(glossary)
 - ✔ Tracking of glossary usage throughout the code.
 - ✔ Display / Generate of documentation pages for your data glossaries.
 - ✔ Detection of similarity between the terms and warning about possible data dictionary issues.
-- Validation of data dictionaries using defined templates and tools.
+- Validation of data dictionaries using defined templates and rules.
 - ✔ Import / export data dictionary from different formats (csv, excel, etc)
 - AI Suggesting of metadata based on name and definition (personal data, data types, ...)
 - Support for multiple backends (Memory, File, Redis, CloudFile...)
