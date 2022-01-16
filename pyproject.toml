@@ -1,15 +1,16 @@
 [tool.poetry]
-name = "glossy"
+name = "Lexy"
 version = "0.1.0"
-description = "Glossy enables you to easily build and share data dictionaries to explain and document your data terminology using code."
+description = "Lexy enables you to easily build and share data dictionaries to explain and document your data terminology using code."
 authors = ["Amine Kaabachi <ping@kaabachi.io>"]
 keywords = ["data-dictionary", "data-catalog", "data-governance", "documentation"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/aminekaabachi/glossy"
-repository = "https://github.com/aminekaabachi/glossy"
+homepage = "https://github.com/aminekaabachi/lexy"
+repository = "https://github.com/aminekaabachi/lexy"
 include = [
     "LICENSE",
+    "models/spaCy/en_core_web_md-3.2.0-py3-none-any.whl",
 ]
 classifiers = [
     "Development Status :: 1 - Planning",

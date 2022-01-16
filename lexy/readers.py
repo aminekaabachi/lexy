@@ -1,7 +1,7 @@
 
 import pandas as pd
-from glossy.core.glossary import Glossary
-from glossy.core.term import Term
+from lexy.core.glossary import Glossary
+from lexy.core.term import Term
 from typing import List
 from cattr import structure
 

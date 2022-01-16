@@ -1,4 +1,4 @@
-import glossy as g
+import lexy as g
 import os
 
 def test_read_glossary_from_csv():

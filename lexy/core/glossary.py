@@ -1,5 +1,5 @@
 from __future__ import annotations
-from glossy.core.term import Term
+from lexy.core.term import Term
 import traceback
 import inspect
 from typing import Callable

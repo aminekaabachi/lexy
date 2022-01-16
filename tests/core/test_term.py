@@ -1,4 +1,4 @@
-import glossy as g
+import lexy as g
 
 def test_should_repr_like_string():
     t = g.Term("hello")

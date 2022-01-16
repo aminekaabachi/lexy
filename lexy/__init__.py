@@ -1,10 +1,10 @@
-from glossy.api import (
+from lexy.api import (
     Glossary,
     Term,
     from_csv,
 )
 
-from glossy.docs import (
+from lexy.docs import (
     docs,
     display_docs,
     export_docs
